@@ -1,10 +1,9 @@
     1  touch text_ignore.txt
     2  echo "text_ignore.txt" >> .gitignore
-    3  echo "text_ignore.txt" >> .gitignore
     4  git status
     5  git add .
     6  git commit -m "Add text_ignore.txt and update .gitignore"
-    7  git push 
+    7  git push
     8  touch main_test.txt
     9  git add .
    10  git commit -m "Add empty file main_test.txt"
@@ -12,13 +11,10 @@
    12  touch develop_test.txt
    13  git add .
    14  git commit -m "Add empty file develop_test.txt"
-   15  git commit -m "Add empty file develop_test.txt"
-   16  git commit -m "Add empty file develop_test.txt"
-   17  git commit -m "Add empty file develop_test.txt"
    18  git status
    19  git add .
    20  git commit -m "Update develop_test.txt with small change"
    21  git checkout main
    22  git merge develop
-   23  git log 
+   23  git log
    24  history > command_list.csv
